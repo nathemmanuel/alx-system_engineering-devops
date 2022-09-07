@@ -1,2 +1,2 @@
 #!/bin/bash
-find $PATH -type d | uniq | wc -l
+echo $PATH | grep */ | wc -l
